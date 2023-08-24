@@ -1,0 +1,884 @@
+<header class="ue-c-main-header js-cnav-header js-header-energize elmundo-theme elmundo-theme-v8" data-menu-nivel="home"
+    data-ue-model="" data-theme="elmundo-theme" data-theme-version="elmundo-theme-v8" data-layout="" data-headersize=""
+    data-headerstyle="">
+    <div class="ue-l-main-header__row ue-l-main-header__top js-header-top ue-c-main-header--inverted " id="js-headerTop"
+        aria-hidden="false">
+        <div class="ue-c-main-header__primary">
+            <a href="https://www.elmundo.es/" class="ue-c-main-header__logo js-header-logo">
+                <span class="hidden-content">Portada El Mundo</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 761.4 97.5" role="img" aria-hidden="true"
+                    class="ue-c-logo--elmundo" fill="var(--ue-c-logo-elmundo-fill, #010101)">
+                    <path d="M77.8,60.9h4.7l-2,24.6c-0.2,2.8-0.4,6.2-0.4,9.3H0v-4.2l6.6-2.2c2.3-0.7,4-2,4-4.7V13.8c0-2.6-1.7-3.8-4-4.7L0,6.9V2.7
+        h78.8c0,3.2,0,6.2,0.2,9.2l1.6,18.8h-4.7l-9.6-17.2c-2.5-4.5-5.4-5.6-11.2-5.6H33.3v35.4h12.9c5.4,0,7.5-2.5,9-5.6l5.8-11.4h4.2
+        v39.2h-4.2L55.1,54c-1.6-3.1-3.6-5.6-9-5.6H33.3v41.3h20.3c6.5,0,10.7-1.7,14.1-8.5L77.8,60.9z"></path>
+                    <path d="M159.9,60.9h4.7l-2,24.6c-0.2,2.7-0.4,6.2-0.4,9.3H89.9v-4.2l5.4-2.2c2-0.7,2.6-2,2.6-4.2V13.3c0-2-0.7-3.3-2.6-4.2
+        l-5.4-2.2V2.7h41.3v4.2l-6.6,2.2c-2.3,0.7-4,1.7-4,4.2v76.2h15.2c6.5,0,10.7-1.7,14.1-8.5L159.9,60.9z"></path>
+                    <path fill="var(--ue-c-logo-elmundo-ball-fill, #00568C)" d="M170.3,45.8c0.4-7.2,2.3-13.9,5.4-19.9h40v19.9H170.3z M215.6,51.7v19.9h-40c-3.1-6-5.1-12.7-5.4-19.9H215.6z M179.4,20
+        c8.3-11.4,21.2-19.4,36.3-20v20H179.4z M215.6,77.5v20c-15-0.7-28-8.5-36.3-20H215.6z M221.6,20V0c15,0.7,28,8.5,36.3,20H221.6z
+            M221.6,45.8V25.9h40c3.1,6,5.1,12.7,5.4,19.9H221.6z M267,51.7c-0.4,7.2-2.3,13.9-5.4,19.9h-40V51.7H267z M257.8,77.5
+        c-8.3,11.4-21.2,19.4-36.3,20v-20H257.8z"></path>
+                    <path d="M386.4,2.7v4.2l-5.6,2c-2.3,0.7-2.9,2.3-2.9,4.4v70.9c0,2,0.7,3.3,2.6,4.2l5.4,2.2v4.2h-38.2v-4.2l5.3-2.2
+        c2-0.7,2.6-2,2.6-4.2V14.3h-0.2l-29.2,80.5h-4.9l-31.7-78.2h-0.2v57.1c0,8.7,0.9,13.4,9.2,15.4l6,1.4v4.2h-33.3v-4.2l4-1.1
+        c6.9-2,7.8-6.9,7.8-15.6V13.9c0-2-0.7-3.8-4.2-5.1l-4.4-1.8V2.7h35.5c0.4,3.6,1.4,7.4,2.5,10l19.2,49.5h0.2l16.7-46.3
+        c1.1-3.3,2.6-9,2.6-13.3L386.4,2.7L386.4,2.7z"></path>
+                    <path d="M451.4,6.9V2.7h28.3v4.2L476.3,8c-4.2,1.3-5.6,3.8-5.6,13v43.3c0,23.9-16.9,32.1-34.6,32.1c-20.3,0-36.1-7.4-36.1-31.5
+        V13.3c0-2-0.7-3.3-2.6-4.2l-5.4-2.2V2.7h38.6v4.2l-5.3,2.2c-2,0.7-2.6,2-2.6,4.2v51.5c0,15.8,7.5,22.5,20.7,22.5
+        c14.5,0,20.9-8.9,20.9-24.3V21c0-9.2-1.3-11.4-6.9-12.7L451.4,6.9z"></path>
+                    <path d="M540.4,6.9V2.7H574v4.2l-4,1.1c-7.5,2.2-7.8,6.6-7.8,15.2v71.5h-10.7l-51.6-78.9h-0.2v57.9c0,8.7,1.1,12.9,9.4,15l5.8,1.4
+        v4.7h-33.7v-4.7l4.2-1.1c6.9-2,7.8-6.6,7.8-15.2V13.6c-0.2-2-1.4-4.2-6.5-5.6l-4-1.1V2.7h36.8c0.7,1.6,2.5,4.4,4,6.7l31.9,49.3
+        V23.4c0-8.7-1.1-13-9.4-15L540.4,6.9z"></path>
+                    <path d="M612.8,2.7c33.8,0,50,20,50,46.1s-16.3,46.1-50,46.1h-35.7v-4.2l5.4-2.2c2-0.7,2.6-2,2.6-4.2V13.3c0-2-0.7-3.3-2.6-4.2
+        l-5.4-2.2V2.7H612.8z M607.8,89.8h6c22.2,0,25.7-18.8,25.7-41s-3.5-41-25.7-41h-6V89.8z"></path>
+                    <path d="M715.8,0.9c22.1,0,45.5,16.1,45.5,47.9c0,31.7-23.4,47.9-45.5,47.9s-45.3-16.1-45.3-47.9S693.8,0.9,715.8,0.9z M715.8,91.4
+        c15.2,0,21.9-14.5,21.9-42.6S731,6.1,715.8,6.1c-15.1,0-21.8,14.5-21.8,42.6C694.1,76.9,700.8,91.4,715.8,91.4z">
+                    </path>
+                </svg>
+            </a>
+            <a href="https://www.elmundo.es/" class="ue-c-main-header__logo--small hide js-header-logo-small">
+                <span class="hidden-content">Portada El Mundo</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105.1 103.9" role="img" aria-hidden="true"
+                    class="ue-c-logo--elmundo-small" fill="var(--ue-c-logo-elmundo-ball-fill, #00568C)">
+                    <path
+                        d="M99.9 74.6c3-6.2 4.9-13.1 5.2-20.3H55.6V75h44c.1 0 0 .1.3-.4zM50.1 26.9H6.5C2.8 33.5.5 41 .1 48.9h50v-22zM55.6 26.9v22H105c-.5-7.9-2.7-15.4-6.4-22h-43zM50.1 54.3H0C.3 61.8 2.2 68.8 5.4 75h44.7V54.3zM50.1 80.5H8.6c9 13.5 24.2 22.6 41.5 23.4V80.5zM55.6 21.4h39.5C86.1 9.2 71.9 1 55.6 0v21.4zM55.6 80.5v23.3c17.1-1 32-10 40.9-23.3H55.6zM50.1 21.4V0C33.6.7 19.1 9 10 21.4h40.1z">
+                    </path>
+                </svg>
+            </a>
+            <a href="#" class="ue-c-main-header__logo--theme hide">
+                <span class="hidden-content" id="js-span-theme">Portada de portada</span>
+            </a>
+            <div role="navigation" tabindex="0" aria-label="Menú Acceso rápido">
+                <ul class="ue-c-main-navigation__skip-links">
+                    <li><a class="ue-c-main-navigation__skip-links-item" id="skip-link-first"
+                            href="#ID-REF2-BUTTON">Saltar a navegación principal (Pulse Enter)</a></li>
+                    <li><a class="ue-c-main-navigation__skip-links-item" id="skip-link-principal"
+                            href="#js_526feae561fd3d3c3f8b4578">Saltar a contenido (Pulse Enter)</a></li>
+                </ul>
+            </div>
+            <p class="ue-c-main-header__title hide js-header-title" id="titleEnergize">PORTADA</p>
+            <div class="ue-c-main-header__tools js-header-tools-top">
+                <div class="ue-c-main-header__subscription ue-c-main-header__subscription--hightlighted"
+                    style="display:none">
+                    <div class="tp-container-inner" style="height: 50px; width: 88px;"><iframe
+                            id="offer_84bead7230f7f3a71fec-0" name="offer_84bead7230f7f3a71fec-0"
+                            title="offer_84bead7230f7f3a71fec-0" scrolling="no" allowtransparency="true" allow="payment"
+                            allowfullscreen="true"
+                            src="https://buy.tinypass.com/checkout/template/cacheableShow?aid=wQKkKmsRpu&amp;templateId=OTFGWNPKS0P8&amp;templateVariantId=OTVAR8SBKZTLS&amp;offerId=fakeOfferId&amp;experienceId=EX5YLLA6KABF&amp;iframeId=offer_84bead7230f7f3a71fec-0&amp;displayMode=inline&amp;pianoIdUrl=https%3A%2F%2Fid.tinypass.com%2Fid%2F&amp;widget=template&amp;url=https%3A%2F%2Fwww.elmundo.es"
+                            frameborder="0"
+                            style="overflow: hidden; background-color: transparent; border: 0px; width: 88px; height: 50px;"
+                            data-gtm-yt-inspected-21="true"></iframe></div>
+                </div>
+                <div class="ue-c-main-header__subscription" style="display:none">
+                    <a href="https://www.elmundo.es/em/premium.html">
+                        <p>Suscríbete por <span>1€</span></p>
+                    </a>
+                </div>
+                <div class="ue-c-main-header__login js-ueUserPanel" data-csp="20012"> <a title="Login"
+                        class="tools-corporative-link js-loginClick" href="#">
+                        <span>Inicia sesión</span>
+                        <i class="icon-login"></i>
+                    </a>
+                </div>
+            </div>
+            <ul class="ue-c-main-header__social-tools js-social-tools js_socialMedia"
+                aria-label="Compartir en Redes Sociales">
+                <li class="ue-c-main-header__social-tools-item">
+                    <a href="javascript:void(0)" class="is-facebook js-icon-facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" role="img"
+                            aria-hidden="true">
+                            <path opacity=".5" fill="none" d="M0 0h28v28H0z"></path>
+                            <path
+                                d="M15.22 21.875V14.69h2.415l.359-2.798H15.22v-1.789c0-.809.225-1.363 1.387-1.363h1.485V6.234a19.463 19.463 0 0 0-2.16-.109c-2.141 0-3.601 1.308-3.601 3.705v2.068H9.909v2.799h2.421v7.178h2.89z">
+                            </path>
+                        </svg>
+                        <span class="hidden-content">Compartir en Facebook</span>
+                    </a>
+                </li>
+                <li class="ue-c-main-header__social-tools-item js-header-social-tools">
+                    <a href="javascript:void(0)" class="is-twitter js-icon-twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" role="img"
+                            aria-hidden="true">
+                            <path opacity=".5" fill="none" d="M0 0h28v28H0z"></path>
+                            <path
+                                d="M20.807 10.413c.007.149.01.304.011.454.032 4.659-3.471 10.048-9.955 10.094a9.984 9.984 0 0 1-5.41-1.545c.278.028.558.044.84.042a7.094 7.094 0 0 0 4.368-1.537 3.535 3.535 0 0 1-3.311-2.424c.216.04.438.059.663.057.32 0 .649-.044.948-.128a3.496 3.496 0 0 1-2.835-3.436v-.042c.438.259 1.004.414 1.58.428a3.532 3.532 0 0 1-1.135-4.697 10.002 10.002 0 0 0 7.284 3.633 3.521 3.521 0 0 1 3.4-4.351 3.52 3.52 0 0 1 2.581 1.094 6.977 6.977 0 0 0 2.233-.871 3.541 3.541 0 0 1-1.54 1.96 6.827 6.827 0 0 0 2.019-.569 7.13 7.13 0 0 1-1.741 1.838z">
+                            </path>
+                        </svg><span class="hidden-content">Compartir en Twitter</span>
+                    </a>
+                </li>
+                <li class="ue-c-main-header__social-tools-item js-header-social-tools">
+                    <a href="javascript:void(0)" class="is-telegram js-icon-telegram">
+                        <svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" role="img"
+                            aria-hidden="true">
+                            <path opacity=".5" fill="none" d="M0 0h28v28H0z"></path>
+                            <path d="M10.849,16.65l-0.331,4.655c0.473,0,0.678-0.205,0.924-0.449l2.22-2.121l4.598,3.369c0.842,0.469,1.436,0.221,1.664-0.777
+          l3.018-14.143l0.002-0.001c0.268-1.247-0.449-1.734-1.271-1.428L3.93,12.546c-1.211,0.47-1.193,1.145-0.206,1.451l4.536,1.411
+          l10.536-6.592c0.496-0.328,0.947-0.146,0.576,0.182L10.849,16.65z"></path>
+                        </svg><span class="hidden-content">Compartir en Telegram</span>
+                    </a>
+                </li>
+                <li
+                    class="ue-c-main-header__social-tools-item ue-c-main-header__social-tools-item--email js-icon-whatsapp">
+                    <a href="javascript:void(0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" role="img"
+                            aria-hidden="true">
+                            <path opacity=".5" fill="none" d="M0 0h28v28H0z"></path>
+                            <path
+                                d="M14 5.99c-4.342 0-7.875 3.534-7.875 7.875 0 1.724.557 3.319 1.5 4.617l-.985 2.925 3.028-.969A7.83 7.83 0 0 0 14 21.74c4.343 0 7.875-3.532 7.875-7.875 0-4.341-3.532-7.875-7.875-7.875zm4.863 11.124c-.191.536-1.13 1.054-1.551 1.093-.421.038-.421.344-2.755-.575-2.335-.92-3.807-3.314-3.922-3.465-.115-.155-.938-1.245-.938-2.375s.592-1.685.804-1.917a.842.842 0 0 1 .612-.286c.153 0 .307.02.439.02.135 0 .326-.077.518.382.191.46.65 1.59.708 1.705.058.116.097.249.02.403s-.115.248-.229.383-.241.298-.346.401c-.114.115-.233.239-.1.469.134.23.596.981 1.278 1.591.877.782 1.617 1.023 1.846 1.139.23.116.363.096.498-.058.134-.153.575-.669.727-.899.154-.23.307-.191.518-.115.209.076 1.338.631 1.569.748.229.114.382.171.439.267.056.094.056.553-.135 1.089z">
+                            </path>
+                        </svg><span class="hidden-content">Compartir en WhatsApp</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="ue-c-main-header__progress-bar ue-c-fixed hide js-progreess-bar" aria-hidden="true">
+                <span class="ue-c-main-header__progress-bar-fill" id="js_progressBar"></span>
+            </div>
+        </div>
+        <nav class="ue-c-main-header__nav js-header-nav-top" role="navigation" aria-label="Menú principal">
+            <button id="ID-REF2-BUTTON" class="ue-c-main-header__button ue-c-main-header__button-menu is-primary"
+                aria-label="Abrir Menú principal" aria-expanded="false" aria-haspopup="true" aria-controls="ID-REF2"
+                aria-owns="ID-REF2">
+                <span class="ue-c-main-header__button-menu-icon" aria-hidden="true"></span>
+            </button>
+            <div class="ue-l-side-panel ue-l-side-panel--fixed ue-l-side-panel--fixed-top-right-from-mobile ue-l-side-panel--right-to-left-from-mobile ue-l-side-panel--full-height-from-mobile ue-l-side-panel--partial-width-until-tablet ue-l-side-panel--shadow-left-from-mobile ue-l-side-panel--padding-top ue-l-side-panel--background"
+                aria-hidden="true" id="ID-REF2">
+                <div class="ue-c-seo-links ue-c-seo-links--highcontrast" aria-hidden="true">
+                    <div class="ue-c-seo-links__title">Es noticia</div>
+                    <ul class="ue-c-seo-links__list">
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/internacional/2023/08/24/64e6e33c749fac0025c29f82-directo.html">Guerra
+                                Rusia Ucrania</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/espana/2023/08/24/64e705bbfdddff64b38b45a6.html">PP</a>
+                        </li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/espana/2023/08/24/64e74e95e85ece7f2f8b45af.html">PSOE
+                                Junts</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/internacional/2023/08/24/64e7532ee4d4d842748b4587.html">Prigozhin
+                                Wagner</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/deportes/futbol/2023/08/24/64e74639e4d4d8695f8b4579.html">Fifa
+                                Luis Rubiales</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/espana/2023/08/24/64e65d5efc6c83a0638b45a0.html">Puigdemont</a>
+                        </li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/internacional/2023/08/22/64e4dabee85ecec52c8b4587.html">General
+                                Surovikin</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/deportes/mas-deporte/2023/08/24/64e70273fdddff909f8b45ab.html">Mundial
+                                Atletismo</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2023/08/24/64e6f499e85ece802f8b45a2.html">Japón
+                                Fukushima</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/espana/2023/08/24/64e72a96e4d4d892038b4584.html">Vox</a>
+                        </li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/loc/famosos/2023/08/23/64e5e0bafc6c834f328b4599.html">Aída
+                                Nízar</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/madrid/2023/08/24/64e645eefc6c835f318b45b6.html">Presa
+                                Peñascales</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/como/2023/08/24/64e61e60e85ece4c1d8b45ae.html">Santoral
+                                hoy</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/como/2023/08/24/64e6fe45fdddffe8868b4591.html">Canal de
+                                Panamá</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/como/2023/08/23/64e5c334e4d4d82e2c8b45b2.html">Osasuna -
+                                Brujas</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/como/2023/08/24/64e720d3fc6c83e9678b459e.html">Celta - Real
+                                Madrid</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/como/2023/08/14/64d9f240e4d4d88d548b4597.html">Calendario
+                                escolar </a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/como/2023/08/22/64e457e5fc6c83bf418b4598.html">Festivos
+                                España</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/como/2023/03/28/6422c193fdddff0a988b4578.html">Festivos
+                                Madrid</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/como/2023/07/31/64c7d0e0e85ece32058b4585.html">Calendario
+                                laboral 2023</a></li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/elecciones/elecciones-generales/2023/07/23/64bd5e29e85ece993c8b459b.html">Calculadora
+                                pactos electorales</a></li>
+                        <li class="ue-c-seo-links__item"><a href="https://www.elmundo.es/traductor/">Traductor</a></li>
+                        <li class="ue-c-seo-links__item"><a href="https://www.elmundo.es/ultimas-noticias.html">Últimas
+                                noticias</a></li>
+                        <li class="ue-c-seo-links__item"><a href="https://cooking.elmundo.es/">Recetas de cocina</a>
+                        </li>
+                        <li class="ue-c-seo-links__item"><a
+                                href="https://www.elmundo.es/television/programacion-tv/">Programación TV</a></li>
+                    </ul>
+                </div>
+                <div class="ue-c-main-navigation ue-c-main-navigation--high-contrast">
+                    <ul class="ue-c-main-navigation__list ue-c-main-navigation__list--first-level " role="menu">
+                        <li class="ue-c-main-navigation__list-item" role="presentation"> <a
+                                href="https://www.elmundo.es/index.html" data-ue-cmp="MENUHAM01" data-ue-skw="portada"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Portada </a>
+                        </li>
+                        <li class="ue-c-main-navigation__list-item" role="presentation"> <a
+                                href="https://www.elmundo.es/espana.html" data-ue-cmp="MENUHAM01" data-ue-skw="espana"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> España </a> </li>
+                        <li class="ue-c-main-navigation__list-item" role="presentation"> <a
+                                href="https://www.elmundo.es/opinion.html" data-ue-cmp="MENUHAM01" data-ue-skw="opinion"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Opinión </a>
+                        </li>
+                        <li class="ue-c-main-navigation__list-item" role="presentation"> <a
+                                href="https://www.elmundo.es/economia.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="economia" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Economía </a> </li>
+                        <li class="ue-c-main-navigation__list-item" role="presentation"> <a
+                                href="https://www.elmundo.es/internacional.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="internacional" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Internacional </a> </li>
+                        <li class="ue-c-main-navigation__list-item" role="presentation"> <a
+                                href="https://www.elmundo.es/deportes.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="deportes" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Deportes </a> </li>
+                        <li class="ue-c-main-navigation__list-item" role="presentation"> <a
+                                href="https://www.elmundo.es/cultura.html" data-ue-cmp="MENUHAM01" data-ue-skw="cultura"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Cultura </a>
+                        </li>
+                        <li class="ue-c-main-navigation__list-item" role="presentation"> <a
+                                href="https://www.elmundo.es/loc.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="la-otra-cronica" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> LOC </a> </li>
+                        <li class="ue-c-main-navigation__list-item" role="presentation"> <a
+                                href="https://www.elmundo.es/television.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="television" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Televisión </a> </li>
+                        <li class="ue-c-main-navigation__list-item" role="presentation"> <a
+                                href="https://www.elmundo.es/ciencia-y-salud.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="ciencia-y-salud" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Ciencia y Salud </a> </li>
+                        <li class="ue-c-main-navigation__list-item" role="presentation"> <a
+                                href="https://www.elmundo.es/la-lectura.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="la-lectura" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> La Lectura </a> </li>
+                    </ul>
+                </div>
+                <div class="ue-c-main-navigation ue-c-main-navigation--boxed">
+                    <div class="ue-c-main-navigation__title">Más webs de El Mundo</div>
+                    <ul class="ue-c-main-navigation__list ue-c-main-navigation__list--first-level ue-l-main-navigation__list--3-cols"
+                        role="menu" aria-label="Más webs de El Mundo">
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/cronica.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="cronica" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> <svg xmlns="http://www.w3.org/2000/svg" class="ue-c-logo--cronica"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 48px" viewBox="0 0 43 44"
+                                    aria-hidden="true" role="img">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path fill="#1F1410"
+                                            d="M1.89 9.744C.62 8.678 0 7.334 0 5.682 0 4.31.438 3.068 1.27 2.031 2.346.716 3.828 0 5.432 0c.772 0 1.392.146 1.861.307.242.073.439.16.62.219.167.059.318.102.439.102.302 0 .59-.19.787-.526h.333L9.59 3.2h-.378c-.59-1.738-1.8-2.673-3.48-2.673-2.375 0-4.069 1.899-4.069 4.967 0 2.936 1.74 4.791 4.206 4.791 1.483 0 2.647-.686 3.691-2.045l.439.292C9.001 10.182 7.534 11 5.537 11c-1.422 0-2.663-.424-3.646-1.256M19.712.598v4.626h1.563c2.009 0 3.085-.72 3.085-2.313 0-1.655-1.076-2.313-3.156-2.313h-1.492zM21.175 11H17v-.353c.918-.045 1.306-.429 1.306-1.347V1.686c0-.92-.388-1.302-1.306-1.349V0h4.576c2.885 0 4.233 1.026 4.233 2.957 0 1.272-.904 2.298-2.797 2.727l2.467 3.876c.43.674.775 1.042 1.521 1.087V11h-2.296l-3.3-5.147c-.258 0-.487.015-.688.015-.301 0-.602-.015-1.004-.03V9.3c0 .98.459 1.347 1.463 1.363V11z">
+                                        </path>
+                                        <g transform="translate(32)">
+                                            <path fill="#1F1410"
+                                                d="M3.681 4.764H3.42L5.352 2.54c.276-.32.538-.458.712-.458.248 0 .466.229.466.503 0 .26-.16.442-.582.717L3.681 4.764zM1.829 5.811c0 3.262 1.424 5.213 3.575 5.213 2.15 0 3.59-1.951 3.59-5.213S7.554.597 5.404.597c-2.151 0-3.575 1.952-3.575 5.214zm3.575 5.762a4.88 4.88 0 0 1-3.619-1.57C.783 8.936.23 7.442.23 5.811c0-1.631.553-3.11 1.555-4.177C2.745.613 4.023.049 5.404.049c1.38 0 2.66.564 3.619 1.585 1.002 1.067 1.57 2.546 1.57 4.177 0 1.63-.568 3.125-1.57 4.192a4.878 4.878 0 0 1-3.619 1.57z">
+                                            </path>
+                                        </g>
+                                        <path fill="#1F1410"
+                                            d="M2.298 27.084v-8.058c-.328-.422-.742-.634-1.298-.694V18h2.611l6.377 8.33v-6.564c0-.966-.442-1.404-1.384-1.434V18H12v.332c-.885.045-1.298.513-1.298 1.434V29h-.414l-7.276-9.52v7.604c0 .98.442 1.403 1.37 1.403v.347H1v-.347c.885-.015 1.298-.468 1.298-1.403M20 28.647c.93-.03 1.329-.397 1.329-1.347v-7.614c0-.95-.399-1.318-1.329-1.349V18h4v.337c-.93.03-1.316.399-1.316 1.349V27.3c0 .95.386 1.317 1.316 1.347V29h-4v-.353zM33.89 27.744c-1.27-1.067-1.89-2.41-1.89-4.062 0-1.373.438-2.614 1.27-3.652 1.075-1.314 2.557-2.03 4.161-2.03.772 0 1.392.146 1.861.307.242.073.439.16.62.219.167.059.318.102.439.102.302 0 .59-.19.787-.526h.333l.12 3.097h-.378c-.59-1.738-1.8-2.673-3.48-2.673-2.375 0-4.07 1.899-4.07 4.966 0 2.937 1.74 4.792 4.207 4.792 1.483 0 2.647-.687 3.691-2.045l.439.292C41.001 28.18 39.534 29 37.537 29c-1.422 0-2.663-.424-3.646-1.256">
+                                        </path>
+                                        <g transform="translate(0 33)">
+                                            <path fill="#1F1410"
+                                                d="M3.318 6.67H7.34L5.417 1.978l-2.1 4.692zm3.905 3.982c.807-.06 1.291-.288 1.291-.893 0-.257-.073-.56-.205-.878l-.66-1.53h-4.61l-.617 1.514c-.117.303-.19.56-.19.818 0 .62.425.802 1.232.953V11H0v-.364c.734-.136 1.101-.605 1.453-1.392L5.563.13h.514l3.95 9.053c.396.894.821 1.378 1.717 1.469V11H7.223v-.348z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg> <span> Crónica </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/yodona.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="yodona" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> <svg xmlns="http://www.w3.org/2000/svg" class="ue-c-logo--yodona"
+                                    style="width: 50px;" viewBox="0 0 40 31" aria-hidden="true" role="img">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <g transform="translate(12)">
+                                            <path fill="#1F1410"
+                                                d="M18.777 2.196c-1.18-1.191-2.74-1.56-4.639-1.56-1.855 0-3.373.369-4.596 1.56-1.982 2.012-2.826 6.2-2.826 13.385 0 8.212.844 11.374 2.826 13.344 1.223 1.191 2.741 1.602 4.596 1.602 1.898 0 3.459-.41 4.64-1.602 1.982-1.97 2.825-5.132 2.825-13.344 0-7.185-.843-11.373-2.826-13.385M14.138 31C6.548 31 .348 24.1.348 15.58.348 7.31 6.126.12 14.138.12c7.676 0 13.833 6.9 13.833 15.46 0 8.521-6.157 15.42-13.833 15.42">
+                                            </path>
+                                        </g>
+                                        <path fill="#1F1410" d="M2 28.5a2.5 2.5 0 1 0 5 0 2.5 2.5 0 0 0-5 0"></path>
+                                        <g>
+                                            <path fill="#1F1410"
+                                                d="M19.454.118h-4.916c-.375 0-.375.623 0 .623h1.949c.285 0 .326.121-.286 1.703l-3.995 10.37L7.07.862c-.04-.08 0-.121.204-.121h1.908c.416 0 .416-.623 0-.623H.312c-.416 0-.416.623 0 .623h1.704c.204 0 .285.04.326.121l8.03 16.94-3.506 9.248c-.43 1.117-.851 1.767-1.23 2.132l.274.476c.626-.505 1.128-1.36 1.617-2.689l9.294-24.565C17.392.862 17.514.74 17.8.74h1.654c.338 0 .338-.623 0-.623">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg> <span> YoDona </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/papel.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="papel" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> <svg xmlns="http://www.w3.org/2000/svg" class="ue-c-logo--papel"
+                                    aria-hidden="true" role="img" xmlns:xlink="http://www.w3.org/1999/xlink" width="56"
+                                    height="41" viewBox="0 0 56 41">
+                                    <defs>
+                                        <path id="ue-c-logo--papel-a" d="M0 .35h14.452v17.57H0z"></path>
+                                        <path id="ue-c-logo--papel-c" d="M.206.35h15.459v17.57H.205z"></path>
+                                        <path id="ue-c-logo--papel-e" d="M.392.35h14.94v17.57H.393z"></path>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path fill="#1F1410"
+                                            d="M4.567.795v7.839c1.13.164 1.841.258 2.455.258 3.094 0 5.009-1.521 5.009-4.049 0-2.854-1.94-4.048-5.55-4.048H4.568zM7.12 16.8H0v-.421c1.571-.094 2.259-.702 2.259-2.13V2.528C2.259 1.1 1.571.491 0 .397V0h7.489c4.763 0 7.071 1.732 7.071 4.867 0 2.83-2.627 4.843-7.562 4.843-.688 0-1.4-.046-2.431-.163v4.703c0 1.544.81 2.105 2.554 2.129v.421zM24.3 10.178h6.76l-3.238-7.534-3.522 7.534zm6.521 6.2c1.31-.093 2.118-.467 2.118-1.45 0-.398-.118-.889-.357-1.404l-1.07-2.41h-7.593l-1.047 2.387c-.215.468-.31.889-.31 1.31 0 1.006.739 1.31 2.024 1.544v.445H19.04v-.445c1.19-.234 1.809-.982 2.38-2.2L28.108 0h.762l6.425 14.062c.62 1.357 1.333 2.153 2.785 2.316v.422h-7.259v-.422z">
+                                        </path>
+                                        <g transform="translate(0 22.4)">
+                                            <mask id="ue-c-logo--papel-b" fill="#fff">
+                                                <use xlink:href="#ue-c-logo--papel-a"></use>
+                                            </mask>
+                                            <path fill="#1F1410"
+                                                d="M4.533 1.182V9.38c1.121.171 1.828.27 2.437.27 3.071 0 4.972-1.591 4.972-4.234 0-2.986-1.925-4.234-5.508-4.234H4.533zM7.067 17.92H0v-.44c1.56-.098 2.242-.734 2.242-2.227V2.993C2.242 1.501 1.56.865 0 .767V.35h7.433c4.728 0 7.02 1.81 7.02 5.09 0 2.96-2.608 5.065-7.507 5.065-.683 0-1.39-.05-2.413-.172v4.919c0 1.615.804 2.202 2.534 2.227v.44z"
+                                                mask="url(#ue-c-logo--papel-b)"></path>
+                                        </g>
+                                        <g transform="translate(19.04 22.4)">
+                                            <mask id="ue-c-logo--papel-d" fill="#fff">
+                                                <use xlink:href="#ue-c-logo--papel-c"></use>
+                                            </mask>
+                                            <path fill="#1F1410"
+                                                d="M.206 17.92v-.44c1.578-.098 2.268-.735 2.268-2.227V2.993c0-1.492-.69-2.129-2.268-2.227V.35h14.398v3.5h-.517c-.346-2.105-1.455-2.643-3.748-2.643H4.791v7.072h3.107c1.85 0 2.564-.636 2.761-2.447h.469v5.824h-.444c-.222-1.811-.888-2.52-2.663-2.52h-3.23v5.554c0 1.884.469 2.422 2.49 2.422h3.797c2.145 0 3.354-.978 4.118-3.18h.469l-.715 3.988H.206z"
+                                                mask="url(#ue-c-logo--papel-d)"></path>
+                                        </g>
+                                        <g transform="translate(40.32 22.4)">
+                                            <mask id="ue-c-logo--papel-f" fill="#fff">
+                                                <use xlink:href="#ue-c-logo--papel-e"></use>
+                                            </mask>
+                                            <path fill="#1F1410"
+                                                d="M4.977 2.993v11.648c0 2.08.592 2.398 2.786 2.398h2.54c2.49 0 3.649-.979 4.585-3.475h.445l-.838 4.356H.392v-.44c1.578-.098 2.268-.735 2.268-2.227V2.993C2.66 1.501 1.97.865.392.767V.35H7.59v.416c-1.8.024-2.614.612-2.614 2.226"
+                                                mask="url(#ue-c-logo--papel-f)"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <span> Papel </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/madrid.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="madrid" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0"
+                                    y="0" viewBox="0 0 218.2 89.9" xml:space="preserve" class="ue-c-logo--granmadrid"
+                                    aria-hidden="true" role="img">
+                                    <style>
+                                        .st0 {
+                                            fill: #7f7f7f
+                                        }
+                                    </style>
+                                    <path class="st0"
+                                        d="M30 1.7v12.9h-1.3c-.8-7.4-4.8-12-10.3-12-6.4 0-9.7 6.1-9.7 17.8 0 11.5 3 17.2 8.9 17.2 4.4 0 7.2-3 7.2-7.9v-5.4c0-1.6-1-2.5-2.5-2.5h-2.8v-1.4h17.1v1.5h-2.8c-1.4 0-2.4 1-2.4 2.5v14.4h-1.6c-.5-1.1-.7-1.4-1-2.2-.5-.8-.7-1.2-1.5-2.2-.5.7-1 1.2-1.5 1.6-2 2-5.7 3.3-9.2 3.3-9 0-15.3-7.6-15.3-18.8 0-11 6.9-19.3 16.1-19.3 2.2 0 4.3.5 6.3 1.4l1.6.8c.5.3 1.1.4 1.6.4 1.1 0 1.8-.8 1.8-2.1H30z">
+                                    </path>
+                                    <path class="st0"
+                                        d="M34.9 37.3h2.8c1.5 0 2.5-1 2.5-2.5V5.9c0-1.2-.1-1.5-.6-1.9-.2-.1-.6-.3-1.1-.5-.3-.1-.6-.1-.7-.1H35V1.7h18.9c8.4 0 13.3 3.3 13.3 8.9 0 4.7-3.5 7.7-10.5 8.8 2.1.1 3.3.5 4.8 1.3.8.4 1.4 1 2 1.6 1.1 1.5 1.6 3.1 1.8 7.5.1 1.3.1 2.5.3 3.8.1 1.8.7 2.5 1.8 2.5 1.3 0 2.1-1.6 2.1-4.6h2c0 .4.1.6.1.8 0 4.5-2.3 7.1-6.5 7.1-2.2 0-3.9-.7-5-2.1-1.1-1.4-1.5-2.9-1.6-6.7-.1-6.4-.5-7.6-2-9.1-1.1-1.1-2.5-1.5-4.8-1.5H47v14.6c0 1.6.8 2.5 2.3 2.5H52v1.6H34.9v-1.4zm12-18.8h4.6c5.5 0 8.2-2.5 8.2-7.8 0-3.7-1.4-6.1-3.9-6.9-.8-.3-1.8-.4-3.4-.4h-4c-1.2 0-1.6.4-1.6 1.6v13.5z">
+                                    </path>
+                                    <path class="st0"
+                                        d="M68.6 37.3h2.8c.1 0 .1 0 .1-.1.6-.1 1.3-.4 1.8-.6.5-.4.8-.9 1.2-1.8l10.8-33h5.5l10.8 33c.5 1.5 1.6 2.5 2.9 2.5h2.8v1.6h-17v-1.6h2.8c.8 0 1.6-.6 1.6-1.4 0-.3-.1-.7-.2-1.1l-2-6.3H78.8l-2.2 6.3c-.1.4-.2.7-.2.9 0 .9.9 1.6 2.2 1.6h2.8v1.6H68.5l.1-1.6zm10.9-10.9h12.3L85.6 7.9l-6.1 18.5z">
+                                    </path>
+                                    <path class="st0"
+                                        d="M105.4 37.2h2.8c1.6 0 2.7-1 2.6-2.5l-.1-1.1V5.9c0-1.5-1-2.5-2.5-2.5h-2.8V1.7h11.3L134 30V6c0-1.6-1-2.5-2.5-2.5h-2.8V1.7h12.7v1.7h-2.9c-1.2 0-2.3.9-2.3 1.9v33.5h-4.6L113 8.3v26.5c0 1.1.1 1.4.6 1.8.3.2.7.3 1.2.5.3.1.7.2.8.2h2.8v1.6h-13v-1.7z">
+                                    </path>
+                                    <g>
+                                        <path
+                                            d="M5.1 86.5h2.8c1.5 0 2.5-1 2.5-2.5V55.2c0-1.6-.9-2.5-2.5-2.5H5.2V51H19l9.4 28L38 51h13.6v1.7h-2.9c-.8.2-1.5.4-1.8.6-.6.4-.7.8-.7 1.9v28.7c0 1.6 1 2.5 2.5 2.5h2.8V88H34.2v-1.6h2.9c.7-.1 1.3-.4 1.6-.6.6-.5.6-.6.6-1.9V53.7L27.6 88.2h-3.3L12.6 53.6V84c0 1.6 1 2.5 2.5 2.5h2.8v1.6H5.1v-1.6zM52.1 86.6h2.8c.1 0 .1 0 .1-.1.6-.1 1.3-.4 1.8-.6.5-.4.8-.9 1.2-1.8l10.8-33h5.5l10.8 33c.5 1.5 1.6 2.5 2.9 2.5h2.8v1.6H74v-1.6h2.8c.8 0 1.6-.6 1.6-1.4 0-.3-.1-.7-.2-1.1l-2-6.3H62.5l-2.2 6.3c-.1.4-.2.7-.2.9 0 .9.9 1.6 2.2 1.6h2.8v1.6h-13v-1.6zm11-10.9h12.3l-6.1-18.4-6.2 18.4zM91.5 86.6h2.8c1.6 0 2.5-1 2.5-2.5v-2.8l.1-26.1c0-1.6-1-2.5-2.5-2.5h-2.8V51h17.7c10.6 0 17.7 7.2 17.7 18.2 0 11.2-7.2 18.9-17.6 18.9H91.5v-1.5zm14.1.1h3.8c3.8 0 6.8-2 8.4-5.3.9-2.1 1.4-4.2 1.7-7.5.1-1.6.1-3 .1-4.4 0-6.1-1.1-11.3-2.9-13.7-1.5-2-4-3.3-6.7-3.3h-4.5c-1.6 0-2 .5-2 2.2v29.5c0 1.9.6 2.5 2.1 2.5z">
+                                        </path>
+                                        <path
+                                            d="M126.1 86.6h2.8c1.5 0 2.5-1 2.5-2.5V55.2c0-1.2-.1-1.5-.6-1.9-.2-.1-.6-.3-1.1-.5-.3-.1-.6-.1-.7-.1h-2.8V51h18.9c8.4 0 13.3 3.3 13.3 8.9 0 4.7-3.5 7.7-10.5 8.8 2.1.1 3.3.5 4.8 1.3.8.4 1.4 1 2 1.6 1.1 1.5 1.6 3.1 1.8 7.5.1 1.3.1 2.5.3 3.8.1 1.8.7 2.5 1.8 2.5 1.3 0 2.1-1.6 2.1-4.6h2c0 .4.1.6.1.8 0 4.5-2.3 7.1-6.5 7.1-2.2 0-3.9-.7-5-2.1s-1.5-2.9-1.6-6.7c-.1-6.4-.5-7.6-2-9.1-1.1-1.1-2.5-1.5-4.8-1.5h-4.5V84c0 1.6.8 2.5 2.3 2.5h2.8v1.6h-17.1l-.3-1.5zm12-18.8h4.6c5.5 0 8.2-2.5 8.2-7.8 0-3.7-1.4-6.1-3.9-6.9-.8-.3-1.8-.4-3.4-.4h-4c-1.2 0-1.6.4-1.6 1.6v13.5z">
+                                        </path>
+                                        <path
+                                            d="M161.9 86.6h2.8c1.6 0 2.5-1 2.5-2.5V55.2c0-1.5-1-2.5-2.5-2.5h-2.8V51h17.2v1.7h-2.8c-.1 0-.1 0-.1.1-.6.1-1.3.4-1.6.6-.5.5-.6.6-.6 1.8V84c0 1.5.9 2.5 2.4 2.5h2.8v1.6H162l-.1-1.5zM180.3 86.6h2.8c1.6 0 2.5-1 2.5-2.5v-2.8l.1-26.1c0-1.6-1-2.5-2.5-2.5h-2.8V51H198c10.6 0 17.7 7.2 17.7 18.2 0 11.2-7.2 18.9-17.6 18.9h-17.9l.1-1.5zm14.1.1h3.8c3.8 0 6.8-2 8.4-5.3.9-2.1 1.4-4.2 1.7-7.5.1-1.6.1-3 .1-4.4 0-6.1-1.1-11.3-2.9-13.7-1.5-2-4-3.3-6.7-3.3h-4.5c-1.6 0-2 .5-2 2.2v29.5c0 1.9.5 2.5 2.1 2.5z">
+                                        </path>
+                                    </g>
+                                </svg> <span> Gran Madrid </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/loc.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="loc" class="ue-c-main-navigation__link js-navigation-link" role="menuitem">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ue-c-logo--loc"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="24"
+                                    viewBox="0 0 60 24" role="img" aria-hidden="true">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path fill="#1F1410"
+                                            d="M4.604 3.557v11.27c0 2.013.594 2.321 2.797 2.321h2.55c2.5 0 3.663-.947 4.603-3.363H15L14.158 18H0v-.426c1.584-.094 2.277-.71 2.277-2.154V3.557c0-1.444-.693-2.06-2.277-2.155V1h7.228v.402c-1.807.024-2.624.593-2.624 2.155">
+                                        </path>
+                                        <g transform="translate(20)">
+                                            <path fill="#1F1410"
+                                                d="M2.704 9.42c0 5.341 2.435 8.58 6.148 8.58 3.714 0 6.174-3.239 6.174-8.58 0-5.34-2.46-8.578-6.174-8.578-3.713 0-6.148 3.239-6.148 8.579m6.148 9.345c-2.335 0-4.525-.89-6.123-2.546C1.032 14.489.098 12.066.098 9.42c0-2.645.934-5.043 2.63-6.773A8.493 8.493 0 0 1 8.853.075c2.337 0 4.501.915 6.124 2.572 1.697 1.73 2.656 4.128 2.656 6.774 0 2.645-.959 5.068-2.656 6.799-1.598 1.656-3.787 2.546-6.124 2.546">
+                                            </path>
+                                        </g>
+                                        <g transform="translate(44)">
+                                            <path fill="#1F1410"
+                                                d="M3.193 16.59C1.207 14.787.239 12.537.239 9.719c0-2.325.685-4.426 1.985-6.181C3.902 1.312 6.218.1 8.723.1c1.205 0 2.174.247 2.907.52.378.123.709.271.969.37.26.099.52.173.732.173.497 0 .946-.346 1.253-.89h.449l.189 5.167h-.496c-.922-2.967-2.86-4.574-5.53-4.574-3.782 0-6.453 3.289-6.453 8.53 0 5.02 2.765 8.233 6.689 8.233 2.316 0 4.159-1.162 5.79-3.461l.614.445c-1.536 2.744-3.852 4.104-6.948 4.104-2.222 0-4.16-.717-5.695-2.126">
+                                            </path>
+                                        </g>
+                                        <path fill="#1F1410" d="M0 22h15"></path>
+                                        <path fill="#1F1410"
+                                            d="M0 24h15v-3H0zM21 22h15M21 24h15v-3H21zM44 22h15M44 24h15v-3H44z"></path>
+                                    </g>
+                                </svg> <span> LOC </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/metropoli.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="metropoli" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> <svg xmlns="http://www.w3.org/2000/svg" class="ue-c-logo--metropoli"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 50px;" viewBox="0 0 48 43"
+                                    aria-hidden="true" role="img">
+                                    <defs>
+                                        <path id="ue-c-logo--metropoli-a" d="M.333.348h11.51V8.59H.333z"></path>
+                                        <path id="ue-c-logo--metropoli-c" d="M.393.44h10.353V9H.393z"></path>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path fill="#1F1410"
+                                            d="M10.188 9V6.991h1.158c0-.98.011-1.963.011-2.944v-.456c-.463.936-.88 1.905-1.331 2.841C9.609 7.288 9.25 8.155 8.845 9H6.46c-.52-.936-.972-1.917-1.435-2.864-.429-.89-.903-1.746-1.332-2.625-.011.148-.011.285-.011.422v3.058h1.366V9H0V6.991h1.135V2.997H0V1h6.287c.729 1.335 1.516 2.66 2.153 4.04.347-.708.671-1.426 1.03-2.134.313-.628.602-1.312.961-1.906H16v1.997h-1.17v3.994H16V9h-5.812zM21 9V6.991h1.087V2.997H21V1h9.63c0 1.153.022 2.283.022 3.435v.308h-2.208c-.012-.593-.034-1.152-.045-1.746h-2.836c-.034.103-.034.217-.034.32v.947h2.332v1.62h-2.332v1.107h3.173c.01-.513.01-1.027.034-1.54H31V9H21z">
+                                        </path>
+                                        <g transform="translate(36)">
+                                            <mask id="ue-c-logo--metropoli-b" fill="#fff">
+                                                <use xlink:href="#ue-c-logo--metropoli-a"></use>
+                                            </mask>
+                                            <path fill="#1F1410"
+                                                d="M9.734 4.205c-.036-.612-.036-1.33-.036-1.952H7.923V6.52h1.168v2.07H3.085V6.52h1.228V2.253H2.502c-.012.623-.024 1.329-.012 1.952H.333V.348h11.51v3.857h-2.11z"
+                                                mask="url(#ue-c-logo--metropoli-b)"></path>
+                                        </g>
+                                        <path fill="#1F1410"
+                                            d="M7.877 18.91H6.695v1.476h1.767c.492 0 .89-.224.89-.738 0-.816-.855-.737-1.475-.737m3.7 6.089c-3.513 0-2.272-2.67-3.021-3.296-.27-.223-.76-.28-1.089-.268l-.784.022v1.084c0 .112 0 .212.012.324h.936v1.967H2v-1.967h1.148v-3.91H2V17h7.247c1.44 0 3.477.28 3.477 2.045 0 1.486-1.277 1.91-2.61 1.933-.118 0-.235 0-.352.022.644.123 1.218.156 1.768.536 1.03.716.445 1.822 1.23 1.822.491 0 .433-.514.444-.86h.784c.012.111.012.223.012.335C14 24.319 13.075 25 11.577 25M24.488 18.638c-1.45 0-1.74 1.285-1.74 2.34 0 1.165.169 2.385 1.764 2.385 1.547 0 1.765-1.242 1.765-2.374 0-1.165-.205-2.351-1.789-2.351m4.146 5.208c-1.1.923-2.72 1.154-4.158 1.154-1.439 0-2.998-.253-4.086-1.176-.882-.747-1.39-1.659-1.39-2.769C19 18.21 21.696 17 24.476 17 27.34 17 30 18.132 30 21.077c0 1.11-.484 2.022-1.366 2.77M43.027 18.997h-1.485v1.586h.96c.647 0 1.429.103 1.429-.81 0-.605-.38-.776-.904-.776m3.326 2.248c-.793.81-2.232.673-3.26.685-.513.011-1.015.011-1.528.011v1.05h1.306V25H37v-2.009h1.094v-3.994H37V17h6.73c.848 0 1.819.126 2.466.719.514.468.804 1.061.804 1.769 0 .662-.19 1.29-.647 1.757">
+                                        </path>
+                                        <g transform="translate(1 34)">
+                                            <mask id="ue-c-logo--metropoli-d" fill="#fff">
+                                                <use xlink:href="#ue-c-logo--metropoli-c"></use>
+                                            </mask>
+                                            <path fill="#1F1410"
+                                                d="M5.558 2.192c-1.365 0-1.638 1.375-1.638 2.505 0 1.246.16 2.55 1.661 2.55 1.457 0 1.661-1.328 1.661-2.539 0-1.246-.193-2.516-1.684-2.516m3.903 5.574C8.426 8.753 6.901 9 5.547 9s-2.822-.27-3.846-1.258C.871 6.942.393 5.967.393 4.779.393 1.733 2.93.44 5.547.44c2.696 0 5.2 1.21 5.2 4.362 0 1.188-.456 2.164-1.286 2.964"
+                                                mask="url(#ue-c-logo--metropoli-d)"></path>
+                                        </g>
+                                        <path fill="#1F1410"
+                                            d="M20 42v-2.009h1.059v-3.994h-1.024V34h5.977v1.997h-1.35v3.994h2.826v-1.974H30V42zM40 42v-2.008h1.125v-3.995H40V34h6v1.997h-1.125v3.995H46V42z">
+                                        </path>
+                                    </g>
+                                </svg> <span> Metrópoli </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/vida-sana.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="vida-sana" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> <svg xmlns="http://www.w3.org/2000/svg" class="ue-c-logo--zen"
+                                    style="width: 40px;" viewBox="0 0 40 35" aria-hidden="true" role="img">
+                                    <g fill="#1F1410" fill-rule="evenodd">
+                                        <path
+                                            d="M.807 0v3.751h5.428L.494 32.874v1.824h9.029v-3.595H4.147l5.741-29.28V0zM15.811 0v34.698h8.403v-3.595h-4.802V18.651h3.393v-3.595h-3.393V3.596h4.802V0zM36.337 0v22.559l-.783-5.054L32.214 0h-3.653v34.698h3.183V12.19l.888 5.002 4.018 17.505h2.87V0z">
+                                        </path>
+                                    </g>
+                                </svg> <span> ZEN </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/economia/actualidad-economica.html"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="actualidad-economica"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> <svg
+                                    class="ue-c-logo--actualidadeconomica" aria-hidden="true" role="img"
+                                    viewBox="0 0 200 106" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <path
+                                            d="M137.583095,1.42108547e-14 C173.512448,1.42108547e-14 190.183968,25.0133923 190.183968,55.7333262 C190.183968,57.6697851 190.183968,59.8925456 190.058521,61.9185412 L189.996711,62.7733699 L124.993119,62.7733699 C127.980762,71.626694 134.995843,76.2669045 144.064635,76.2669045 C151.517368,76.2669045 157.714272,72.9091134 164.26385,66.3189684 L164.657261,65.9196819 L187.196325,83.8666897 C177.249119,96.8512829 162.95501,105.889933 141.115572,105.893226 C124.819022,105.889982 111.130564,100.836774 101.419225,91.9663922 L100.987052,91.566664 L100.987052,103.573356 L62.1232217,103.573356 C62.1232217,103.573356 62.1787663,103.388147 62.1972811,103.310895 L62.2032059,103.279844 L62.2032059,93.4138112 C55.1613069,101.013596 45.7189423,106 33.128966,106 C13.8778623,106 0.27424435,95.1012466 0.00409710076,75.4771193 L0,74.8797803 L0,74.5335872 C0,54.6277049 14.5616317,43.3994267 37.4730159,43.0732488 L38.1698496,43.0667039 L38.9169957,43.0667039 C47.235963,43.1188337 57.6335983,44.8640457 62.1317871,46.6671108 L62.3895219,46.7732279 L62.3895219,46.2666383 C62.3631742,46.2402975 62.28319,46.1335233 62.28319,46.1335233 C61.7764669,33.3864675 51.9873474,30.4000816 43.2112038,30.4000816 C35.6094157,30.4000816 29.3146628,33.8935275 22.6195187,40.7468339 C22.6195187,40.7468339 0.943342519,23.4875085 0.0823366288,22.7970038 C10.0314244,9.81194032 24.3283566,0.773290024 46.1456813,0.773290024 C67.3621838,0.773290024 84.1734414,9.41165455 93.5419383,23.8492239 C102.479932,9.30299884 118.280096,1.42108547e-14 137.583095,1.42108547e-14 Z M200,90.0801503 L200,103.493722 C200,103.493722 186.449273,103.493722 186.449273,103.466911 L186.449273,103.466911 L186.449273,90.0801503 L200,90.0801503 Z M53.160762,60.2935737 C44.9383269,60.2935737 40.3118951,65.104014 40.1735878,71.2615911 L40.1703945,71.5467309 L40.1703945,71.9465463 C40.1703945,77.8398253 44.465073,81.733557 49.8000161,81.733557 C57.1161509,81.733557 62.6148143,75.9959265 62.7601447,66.5709609 L62.7630949,66.1868527 L62.7630949,61.9464576 C60.3626293,61.0132414 56.6551286,60.2935737 53.160762,60.2935737 Z M137.769882,29.0665797 C130.83154,29.0665797 125.88695,34.8398582 124.467604,43.8097059 L124.406412,44.2134686 L124.43323,44.2402797 L151.826862,44.2402797 C150.920218,34.6131952 145.184883,29.0665797 137.769882,29.0665797 Z"
+                                            id="ae_BLK" fill="#000000"></path>
+                                    </g>
+                                </svg> <span> Actualidad económica </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/viajes.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="viajes" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> <svg xmlns="http://www.w3.org/2000/svg" class="ue-c-logo--viajes"
+                                    width="60" height="24" viewBox="0 0 60 24" aria-hidden="true" role="img">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path fill="#1F1410"
+                                            d="M4.936.775L3.54 17.182 2.417.775H0l2.314 22.86h2.418L7.115.775zM12.645 23.635h2.383V.775h-2.383zM21.973.775l-2.281 22.86h2.11l.375-4.394h1.906l.24 4.394h2.45L24.524.775h-2.552zm1.293 5.663l.647 10.332h-1.532l.885-10.332zM34.68 23.91c-1.839 0-3.2-1.476-3.2-3.674V14.54h2.213v5.801c0 .652.272 1.063.885 1.063.612 0 .885-.411.885-1.063V.774h2.348v19.462c0 2.198-1.293 3.673-3.131 3.673M43.192 23.635V.775h5.481v2.368h-3.132v7.552h2.213v2.368H45.54v8.204h3.132v2.368z">
+                                        </path>
+                                        <g transform="translate(53.058 .41)">
+                                            <path fill="#1F1410"
+                                                d="M3.444 23.5c-2.11 0-3.37-1.51-3.37-4.05v-2.918h2.145v3.192c0 .927.374 1.58 1.123 1.58.817 0 1.191-.585 1.191-1.58 0-2.3-.646-4.256-1.838-6.9C1.64 10.526.176 6.99.176 4.622c0-2.643 1.055-4.53 3.473-4.53 1.872 0 3.064 1.44 3.064 4.05v3.192H4.602V3.969c0-1.03-.341-1.51-.953-1.51-.682 0-1.158.446-1.158 1.407 0 2.85.68 4.188 1.975 7.174 1.26 2.849 2.348 5.664 2.348 8.066 0 3.57-2.008 4.394-3.37 4.394">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg> <span> Viajes </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/motor.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="motor" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> <svg xmlns="http://www.w3.org/2000/svg" class="ue-c-logo--motor"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="23"
+                                    viewBox="0 0 60 23" aria-hidden="true" role="img">
+                                    <defs>
+                                        <path id="ue-c-logo--motor-a" d="M.273.127h2.735v1.088H.273z"></path>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path fill="#1F1410"
+                                            d="M16.494 0l-2.066 8.358-.596 2.624-.595-2.624L11.136 0H0v23h6.968V10.74l.876 3.42L9.98 23h6.058l2.312-8.84.875-3.42V23h7.984V0zM38.065 10.036v7.604c0 2.139.348 3.785 1.322 5.292H32.29c-.835-1.367-1.044-2.838-1.044-5.292v-7.604h-2.54v-4.66h2.749v-3.19L38.065.89v4.486h3.096v4.66h-3.096zM53.964 11.543c-4.21-.84-5.184.42-5.184 2.348v9.041h-6.784V5.376h5.984l.312 3.469c.662-3.05 2.888-4.276 5.845-3.504l-.173 6.202zM55.969 21.334v-1.089h-2.735c.037.39.148.756.316 1.09h2.419zM55.969 18.565h-2.42c-.167.332-.278.7-.315 1.088h2.735v-1.088zM56.556 17.973h2.031a3.027 3.027 0 0 0-2.03-1.074v1.074zM59.291 20.245h-2.735v1.089h2.42c.167-.333.278-.7.315-1.089M56.556 21.926V23a3.027 3.027 0 0 0 2.031-1.074h-2.03z">
+                                        </path>
+                                        <g transform="translate(56.283 18.438)">
+                                            <mask id="ue-c-logo--motor-b" fill="#fff">
+                                                <use xlink:href="#ue-c-logo--motor-a"></use>
+                                            </mask>
+                                            <path fill="#1F1410"
+                                                d="M.273.127v1.088h2.735A3.054 3.054 0 0 0 2.692.127H.273z"
+                                                mask="url(#ue-c-logo--motor-b)">
+                                            </path>
+                                        </g>
+                                        <path fill="#1F1410"
+                                            d="M55.969 21.926h-2.031c.499.595 1.217.996 2.03 1.074v-1.074zM55.969 17.973V16.9a3.027 3.027 0 0 0-2.031 1.074h2.03z">
+                                        </path>
+                                    </g>
+                                </svg> <span> Motor </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/ciencia-y-salud/medio-ambiente.html"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="sostenibles"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> <svg
+                                    class="ue-c-logo--sostenibles" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 132.6 121.4"
+                                    aria-hidden="true" role="img">
+                                    <path class="st0" fill="#1D1D1B" d="M105.9,60.5h0.3c0,20.2-8.9,38.3-23,50.7c21.8-6.4,39.5-30.5,39.5-54.4c0-19.2-9-36.7-28.2-43.3
+    c-23.1-7.9-56.3,9.2-63.1,47.5h-0.3c0-20.3,9-38.6,23.3-51C32.1,16.2,14,41.1,14,65.3c0,18,11.4,39.2,33.1,44.5
+    C71.6,115.8,99.3,96.6,105.9,60.5z"></path>
+                                </svg> <span> Sostenibles El Mundo </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/espana/encuestas.html"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="el-panel"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> <svg
+                                    class="ue-c-logo--elpanel" viewBox="0 0 54 54" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true" role="img" style="width:45px; padding-left:5px;">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g fill="#000000" fill-rule="nonzero">
+                                            <g>
+                                                <path
+                                                    d="M25.0409302,3.91813953 C11.2269767,3.91813953 0.0251162791,15.12 0.0251162791,28.9339535 C0.0251162791,42.747907 11.2269767,53.9497674 25.0409302,53.9497674 C38.8548837,53.9497674 50.0567442,42.747907 50.0567442,28.9339535 L25.0409302,28.9339535 L25.0409302,3.91813953 Z"
+                                                    id="Path"></path>
+                                                <path
+                                                    d="M28.9339535,0.0753488372 L28.9339535,25.0911628 L53.9497674,25.0911628 C53.9246512,11.2772093 42.7227907,0.0753488372 28.9339535,0.0753488372 Z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg> <span> El panel EM/Sigmados </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/la-lectura.html"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="lalectura"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> <svg width="54"
+                                    height="9" viewBox="0 0 54 9" class="ue-c-logo--lalectura"
+                                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <g fill="none" fill-rule="nonzero">
+                                        <path
+                                            d="M35.498 2.844h2.515v4.148c0 .166.015.333.045.496a.712.712 0 0 0 .761.683.725.725 0 0 0 .817-.677c.03-.18.045-.364.044-.547V2.846h2.503v6.302h-6.215a.158.158 0 0 1-.168-.11 3.902 3.902 0 0 1-.294-1.334c-.016-.263 0-.541 0-.812V2.844h-.008Z"
+                                            fill="#000"></path>
+                                        <path
+                                            d="M3.78 4.991 3.116 3.33c.338-.123.664-.262 1.003-.36a7.223 7.223 0 0 1 2.68-.262 2.75 2.75 0 0 1 1.662.64c.372.339.616.795.688 1.293.044.26.067.523.069.787v3.737H3.129a.173.173 0 0 1-.187-.121 3.07 3.07 0 0 1-.113-2.127c.22-.72.815-1.26 1.552-1.41a3.723 3.723 0 0 1 2.334.129l.129.042a2.164 2.164 0 0 0-.063-.715.74.74 0 0 0-.733-.456 3.873 3.873 0 0 0-2.168.456l-.063.032s-.013-.003-.037-.003Zm3.056 2.67v-.404a.12.12 0 0 0-.092-.139 2.594 2.594 0 0 0-1.066-.163.64.64 0 0 0-.656.56c-.019.13-.019.261 0 .39a.63.63 0 0 0 .525.581c.432.071.876-.033 1.231-.289a.15.15 0 0 0 .053-.105c.01-.144.005-.286.005-.43Z"
+                                            fill="#7F7F7F"></path>
+                                        <path
+                                            d="M47.935 3.356a6.086 6.086 0 0 1 1.594-.526 7.827 7.827 0 0 1 2.011-.12c.447.023.885.14 1.284.341a2.16 2.16 0 0 1 1.142 1.68c.033.217.05.435.05.654v3.768h-6.081a.158.158 0 0 1-.178-.113 3.04 3.04 0 0 1-.113-2.145 2.069 2.069 0 0 1 1.66-1.407 3.715 3.715 0 0 1 2.263.178l.081.029a1.772 1.772 0 0 0-.081-.788.738.738 0 0 0-.683-.404 3.857 3.857 0 0 0-2.18.449l-.115.058c-.215-.573-.433-1.098-.654-1.654Zm3.731 4.306v-.405a.123.123 0 0 0-.094-.139 2.626 2.626 0 0 0-1.05-.168.667.667 0 0 0-.694.622c-.01.088-.01.176 0 .263a.68.68 0 0 0 .649.685c.377.029.753-.063 1.074-.262a.213.213 0 0 0 .126-.226c-.032-.129-.01-.25-.01-.37ZM22.215 7.85l.769 1.285H17.714a.205.205 0 0 1-.181-.077 3.77 3.77 0 0 1-.675-1.662 5.285 5.285 0 0 1 .15-2.455c.433-1.383 1.457-2.168 2.92-2.247a3.19 3.19 0 0 1 2.137.567c.432.332.764.777.958 1.287.303.845.42 1.746.342 2.641h-4.283c.011.305.126.597.326.827.216.23.518.361.835.36a3.623 3.623 0 0 0 1.772-.42l.16-.08.04-.025ZM19.09 5.625h2.048a1.019 1.019 0 0 0-.998-1.1c-.564-.024-.987.312-1.05 1.11v-.01ZM16.863 9.148H9.832V.412h2.712v7.352h4.183c.113 0 .142.032.14.14v1.11c.002.044 0 .084-.004.134ZM31.029 4.8h-1.113V2.959c0-.102.031-.129.128-.126h.995V1.082a.118.118 0 0 1 .082-.134L33.423.02l.056-.016v2.828h1.575v1.959h-1.575v2.612c0 .128.015.254.044.378a.457.457 0 0 0 .454.37 1.4 1.4 0 0 0 .883-.233l.241-.144-.207 1.378h-3.571c-.1 0-.15-.026-.16-.123-.04-.342-.11-.686-.116-1.027-.016-1.016 0-2.032 0-3.046L31.03 4.8ZM28.332 7.307l1.6 1.242c-.15.192-.295.383-.447.565a.231.231 0 0 1-.152.039H24.465a.197.197 0 0 1-.187-.097 3.676 3.676 0 0 1-.627-1.534 5.411 5.411 0 0 1 .128-2.607c.41-1.292 1.313-2.014 2.65-2.192a3.802 3.802 0 0 1 1.69.12 3.017 3.017 0 0 1 1.576 1.25c.05.074.097.147.144.22l.016.04-1.707 1.313-.052-.076c-.118-.179-.226-.365-.357-.525a.856.856 0 0 0-1.486.215 3.07 3.07 0 0 0-.179.735c-.066.483-.038.975.082 1.447.027.095.061.188.102.278a.916.916 0 0 0 1.334.394c.217-.137.405-.315.554-.525l.186-.302Z"
+                                            fill="#000"></path>
+                                        <path
+                                            d="M2.52 0v9.164H.017V1.14A.165.165 0 0 1 .143.96c.76-.3 1.515-.604 2.272-.906L2.52 0Z"
+                                            fill="#7F7F7F"></path>
+                                        <path
+                                            d="M42.668 9.143V2.84h2.492v.512c.079-.066.134-.11.19-.16a2.26 2.26 0 0 1 2.467-.263c.06.032.097.058.079.142-.19.82-.373 1.636-.56 2.455a.197.197 0 0 1-.02.037c-.095-.084-.187-.174-.284-.263a1.37 1.37 0 0 0-1.1-.318.843.843 0 0 0-.743.81c-.016.13-.024.261-.024.393v2.946l-2.497.01Z"
+                                            fill="#000"></path>
+                                    </g>
+                                </svg>
+                                <span> La Lectura </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://www.elmundo.es/tecnologia.html"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="pixel"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> <svg width="54"
+                                    height="45" class="ue-c-logo--pixel" version="1.1" id="Capa_1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" viewBox="0 0 316.2 263.5"
+                                    style="enable-background:new 0 0 316.2 263.5;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0 {
+                                            fill: #747474;
+                                        }
+
+                                        .st1 {
+                                            fill: #1D1D1B;
+                                        }
+
+                                        .st2 {
+                                            fill: #AEAEAE;
+                                        }
+                                    </style>
+                                    <g>
+                                        <rect class="st0" width="52.7" height="52.7"></rect>
+                                        <rect x="52.7" y="52.7" class="st0" width="52.7" height="52.7"></rect>
+                                        <rect x="105.4" y="105.4" class="st1" width="52.7" height="52.7"></rect>
+                                        <rect x="52.7" y="158.1" class="st0" width="52.7" height="52.7"></rect>
+                                        <rect x="158.1" y="52.7" class="st0" width="52.7" height="52.7"></rect>
+                                        <rect x="158.1" y="158.1" class="st2" width="52.7" height="52.7"></rect>
+                                        <rect x="158.1" y="105.4" class="st1" width="52.7" height="52.7"></rect>
+                                        <rect x="210.8" y="158.1" class="st0" width="52.7" height="52.7"></rect>
+                                        <rect y="210.8" class="st1" width="52.7" height="52.7"></rect>
+                                        <rect x="210.8" class="st0" width="52.7" height="52.7"></rect>
+                                        <rect x="210.8" y="210.8" class="st1" width="52.7" height="52.7"></rect>
+                                        <rect x="52.7" class="st2" width="52.7" height="52.7"></rect>
+                                        <rect x="105.4" y="52.7" class="st2" width="52.7" height="52.7"></rect>
+                                        <rect x="52.7" y="210.8" class="st2" width="52.7" height="52.7"></rect>
+                                        <rect x="263.5" class="st2" width="52.7" height="52.7"></rect>
+                                        <rect x="263.5" y="210.8" class="st2" width="52.7" height="52.7"></rect>
+                                    </g>
+                                </svg> <span> Pixel </span> </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--channel"
+                            role="presentation"> <a href="https://cooking.elmundo.es/" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="recetas" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ue-c-logo--recetas" width="60"
+                                    height="16" viewBox="0 0 407.8 108.3">
+                                    <g>
+                                        <path d="M27.8,29.1c2.1-1.6,4.2-2.7,6.6-3.4c2.3-0.7,4.5-1.1,6.4-1.1c2.4,0,4.3,0.2,5.7,0.6c1.4,0.4,2.6,0.9,3.4,1.4
+			c0.8,0.5,1.5,0.9,2.1,1.3c1.3,0.8,2.4,1.5,3.3,1.9c0.9,0.5,1.9,0.7,2.8,0.7c1.3,0,2.6-0.5,3.9-1.5c1.3-1,2.8-2.5,4.3-4.7
+			c0.8-1.1,1.5-2.2,1.9-3.3c0.4-1.1,0.6-2.1,0.6-3.1c0-2-0.7-3.6-2-4.7c-1.3-1.2-2.8-2.3-4.3-3.2c-0.5-0.3-1.6-1-3.5-2
+			c-1.9-1-4.3-2-7.2-3c-3-0.9-6.4-1.4-10.3-1.4c-3.1,0-6.5,0.5-10.3,1.4c-3.7,1-7.4,2.4-11.1,4.4c-3.7,2-7,4.6-10.1,7.7
+			c-3,3.2-5.5,7-7.4,11.4C0.9,33,0,38.1,0,43.9c0,6,0.9,11.3,2.8,15.8c1.9,4.6,4.3,8.5,7.4,11.7c3.1,3.3,6.5,5.9,10.1,8
+			c3.7,2.1,7.4,3.6,11,4.5c3.6,0.9,7,1.4,9.9,1.4c4.2,0,7.8-0.5,10.7-1.4c3-0.9,5.3-1.9,7.1-3c1.7-1.1,2.9-1.7,3.4-2.1
+			c1.5-0.9,2.9-1.9,4.3-3.1c1.3-1.1,2-2.7,2-4.6c0-0.9-0.2-1.9-0.6-3c-0.4-1.1-1-2.3-1.9-3.6c-1.4-2.2-2.8-3.8-4.1-4.9
+			c-1.3-1.1-2.6-1.6-3.9-1.6c-1,0-2,0.2-3,0.7c-1,0.5-1.9,1-2.7,1.6c-0.9,0.6-1.9,1.2-3,1.8c-1.1,0.6-2.3,1.1-3.7,1.4s-3,0.5-5,0.5
+			c-1.9,0-4-0.4-6.3-1.1c-2.3-0.7-4.5-1.9-6.6-3.4c-2.1-1.6-3.7-3.6-5.1-6.1c-1.3-2.5-2-5.6-2-9.2c0-3.6,0.6-6.6,1.9-9.2
+			C24.1,32.7,25.8,30.7,27.8,29.1z"></path>
+                                        <path d="M117.3,29c-4.6-2.7-9.6-4-15.3-4c-4.1,0-8,0.8-11.6,2.4c-3.6,1.6-6.8,3.8-9.6,6.6c-2.8,2.8-5,6-6.6,9.6
+			c-1.6,3.6-2.4,7.6-2.4,11.7c0,4.6,0.9,8.7,2.7,12.4c1.8,3.7,4.2,6.8,7.2,9.5c3,2.6,6.3,4.6,9.9,6c3.6,1.4,7.1,2.1,10.6,2.1
+			c3.4,0,6.9-0.7,10.4-2c3.5-1.3,6.8-3.3,9.7-5.9c3-2.6,5.4-5.7,7.2-9.5c1.8-3.7,2.7-8,2.7-12.8c0-5.6-1.4-10.7-4.1-15.3
+			C125.5,35.3,121.8,31.7,117.3,29z M109.8,60.6c-1.1,1.4-2.4,2.3-3.9,2.9c-1.5,0.6-2.8,0.9-3.9,0.9s-2.4-0.3-3.9-0.9
+			c-1.4-0.6-2.7-1.5-3.8-2.9c-1.1-1.4-1.6-3.2-1.6-5.5c0-1.8,0.4-3.4,1.3-4.8c0.8-1.4,1.9-2.5,3.3-3.3c1.4-0.8,2.9-1.2,4.6-1.2
+			c1.9,0,3.6,0.4,5,1.1c1.4,0.8,2.6,1.8,3.4,3.2s1.2,3,1.2,4.9C111.5,57.4,110.9,59.3,109.8,60.6z"></path>
+                                        <path d="M180.9,29c-4.6-2.7-9.6-4-15.3-4c-4.1,0-8,0.8-11.6,2.4c-3.6,1.6-6.8,3.8-9.6,6.6c-2.8,2.8-5,6-6.6,9.6
+			c-1.6,3.6-2.4,7.6-2.4,11.7c0,4.6,0.9,8.7,2.7,12.4c1.8,3.7,4.2,6.8,7.2,9.5c3,2.6,6.3,4.6,9.9,6c3.6,1.4,7.1,2.1,10.6,2.1
+			c3.4,0,6.9-0.7,10.4-2c3.5-1.3,6.8-3.3,9.7-5.9c3-2.6,5.4-5.7,7.2-9.5c1.8-3.7,2.7-8,2.7-12.8c0-5.6-1.4-10.7-4.1-15.3
+			C189.1,35.3,185.4,31.7,180.9,29z M173.4,60.6c-1.1,1.4-2.4,2.3-3.9,2.9c-1.5,0.6-2.8,0.9-3.9,0.9s-2.4-0.3-3.9-0.9
+			c-1.4-0.6-2.7-1.5-3.8-2.9c-1.1-1.4-1.6-3.2-1.6-5.5c0-1.8,0.4-3.4,1.3-4.8c0.8-1.4,1.9-2.5,3.3-3.3c1.4-0.8,2.9-1.2,4.6-1.2
+			c1.9,0,3.6,0.4,5,1.1c1.4,0.8,2.6,1.8,3.4,3.2s1.2,3,1.2,4.9C175.1,57.4,174.5,59.3,173.4,60.6z"></path>
+                                        <path d="M250.3,65.4l-12.9-10l9.2-8.1c2.7-2.7,4.2-5.1,4.3-7.1c0.1-2-1.3-4.6-4.3-7.8c-1.7-1.9-3.4-3.1-5-3.7
+			c-1.6-0.6-3.1-0.5-4.7,0.1c-1.6,0.6-3.3,1.8-5.1,3.6l-9.7,9.5V10.5c0-1.7-0.2-3.4-0.5-5c-0.3-1.6-1.2-2.9-2.6-3.9
+			c-1.4-1-3.8-1.5-7.2-1.5s-5.9,0.5-7.3,1.5c-1.4,1-2.3,2.3-2.6,3.9c-0.3,1.6-0.5,3.2-0.5,5v63.5c0,1.7,0.1,3.3,0.4,4.9
+			c0.3,1.6,1.1,2.9,2.6,3.9c1.4,1,3.9,1.5,7.3,1.5c3.5,0,5.9-0.5,7.4-1.5c1.4-1,2.3-2.3,2.6-3.9c0.3-1.6,0.5-3.2,0.5-4.9v-6.3
+			l14,13.1c2,1.7,3.7,2.9,5.1,3.6c1.4,0.6,2.9,0.6,4.4,0c1.5-0.6,3.2-2,5.3-4.2c2.7-2.9,4-5.5,3.8-7.7
+			C254.6,70.3,253.1,67.9,250.3,65.4z"></path>
+                                        <path d="M277.5,28c-1.4-1-3.8-1.5-7.2-1.5s-5.9,0.5-7.3,1.5c-1.4,1-2.3,2.3-2.6,3.9c-0.3,1.6-0.5,3.2-0.5,4.8v37.2
+			c0,1.7,0.1,3.3,0.4,4.9c0.3,1.6,1.1,2.9,2.6,3.9c1.4,1,3.9,1.5,7.3,1.5c3.5,0,5.9-0.5,7.4-1.5c1.4-1,2.3-2.3,2.6-3.9
+			c0.3-1.6,0.5-3.2,0.5-4.9v-37c0-1.7-0.2-3.4-0.5-5C279.7,30.3,278.9,29,277.5,28z"></path>
+                                        <path d="M277.5,1.8c-1.4-1-3.8-1.5-7.2-1.5s-5.9,0.5-7.3,1.5c-1.4,1-2.3,2.3-2.6,3.8c-0.3,1.6-0.5,3.2-0.5,5c0,1.7,0.1,3.3,0.4,4.9
+			c0.3,1.6,1.1,2.9,2.6,3.9c1.4,1,3.9,1.5,7.3,1.5c3.5,0,5.9-0.5,7.4-1.5c1.4-1,2.3-2.3,2.6-3.9c0.3-1.6,0.5-3.2,0.5-4.9
+			c0-1.7-0.2-3.3-0.5-4.9C279.7,4.1,278.9,2.8,277.5,1.8z"></path>
+                                        <path d="M339.9,34.6c-1.9-2.6-4.4-4.7-7.2-6.1c-2.9-1.4-6.2-2.2-10-2.2c-1.6,0-3.3,0.3-5.1,0.9c-1.8,0.6-3.5,1.3-5,2.3
+			c-1.6,1-2.8,2-3.8,3.1c-0.2,0.3-0.4,0.5-0.6,0.8c0-0.9-0.2-1.9-0.5-3c-0.4-1.1-1.3-2.1-2.7-2.9c-1.4-0.8-3.7-1.2-6.8-1.2
+			c-3.4,0-5.9,0.5-7.3,1.4c-1.4,1-2.3,2.2-2.6,3.7c-0.3,1.5-0.5,3.1-0.5,4.8v37.5c0,1.7,0.1,3.3,0.4,4.9c0.3,1.6,1.1,2.9,2.6,3.9
+			c1.4,1,3.9,1.5,7.3,1.5c3.5,0,5.9-0.5,7.4-1.5c1.4-1,2.3-2.3,2.6-3.9c0.3-1.6,0.5-3.2,0.5-4.9V55.2c0-1.7,0.3-3.1,1-4.3
+			c0.7-1.2,1.7-2.2,2.9-2.8c1.3-0.7,2.7-1,4.4-1c1.7,0,3.2,0.3,4.4,1c1.2,0.6,2.1,1.6,2.7,2.8c0.6,1.2,1,2.7,1,4.4v18.6
+			c0,1.7,0.2,3.3,0.5,4.9c0.3,1.6,1.2,2.9,2.6,3.9c1.4,1,3.9,1.5,7.4,1.5c3.5,0,5.9-0.5,7.4-1.5c1.4-1,2.3-2.3,2.6-3.9
+			c0.3-1.6,0.5-3.2,0.5-4.9V55.2c0-4.1-0.5-7.9-1.5-11.4C343.3,40.3,341.8,37.2,339.9,34.6z"></path>
+                                        <path d="M407.4,31.4c-0.3-1.6-1.1-2.8-2.5-3.8c-1.4-1-3.7-1.5-7.1-1.5c-3.3,0-5.7,0.5-7.3,1.5c-1.3,0.8-2.2,2.1-2.6,3.8
+			c-1-1.2-2.1-2.2-3.3-3c-2.2-1.4-4.9-2.1-8.3-2.1c-3.3,0-6.4,0.8-9.5,2.3c-3.1,1.6-5.9,3.6-8.3,6.3c-2.5,2.6-4.4,5.6-5.8,8.9
+			c-1.4,3.3-2.1,6.8-2.1,10.4c0,3.7,0.7,7.3,2.1,10.7c1.4,3.4,3.3,6.4,5.8,9.1c2.4,2.7,5.2,4.7,8.3,6.3c3.1,1.5,6.3,2.3,9.6,2.3
+			c4.5,0,7.9-1.1,10.4-3.4c0.4-0.3,0.7-0.7,1-1.1v1.4c0,1.4-0.2,2.6-0.7,3.8c-0.5,1.2-1,2.2-1.8,3.1c-0.7,0.9-1.6,1.6-2.6,2.1
+			c-1,0.5-2.1,0.7-3.2,0.7c-2.1,0-3.7-0.3-5.1-0.8c-1.3-0.5-2.5-1.1-3.4-1.8c-0.9-0.6-1.8-1.2-2.7-1.8c-0.9-0.5-1.9-0.8-3-0.8
+			c-1.3,0-2.4,0.4-3.3,1.1c-0.9,0.8-2,1.8-3.2,3.1c-1.1,1.2-2,2.5-2.6,3.8c-0.6,1.3-0.9,2.7-0.9,4.2c0,1.4,0.7,2.8,2.2,4.2
+			c1.4,1.4,3.3,2.7,5.7,3.9c2.4,1.2,4.9,2.2,7.7,2.9c2.8,0.7,5.5,1.1,8.1,1.1c3.3,0,6.7-0.6,10-1.9c3.3-1.3,6.4-3.1,9.2-5.5
+			c2.8-2.4,5.1-5.3,6.8-8.8c1.7-3.5,2.6-7.5,2.6-12V36.2C407.8,34.6,407.6,33,407.4,31.4z M385.8,58.4c-0.7,1.2-1.7,2.2-2.8,3
+			c-1.2,0.8-2.5,1.1-3.9,1.1c-1.4,0-2.8-0.4-4-1.1c-1.3-0.8-2.3-1.7-3-3c-0.8-1.2-1.1-2.5-1.1-3.9c0-1.4,0.4-2.8,1.1-4
+			c0.7-1.2,1.7-2.2,2.9-3c1.2-0.8,2.5-1.1,4-1.1c1.5,0,2.9,0.4,4.1,1.1c1.2,0.7,2.2,1.7,2.9,2.9c0.7,1.2,1.1,2.6,1.1,4.1
+			C386.9,55.8,386.6,57.1,385.8,58.4z"></path>
+                                    </g>
+                                </svg>
+                                <span> Recetas </span> </a> </li>
+                    </ul>
+                </div>
+                <div class="ue-c-main-navigation ue-c-main-navigation--boxed">
+                    <div class="ue-c-main-navigation__title">Servicios</div>
+                    <ul class="ue-c-main-navigation__list ue-c-main-navigation__list--first-level ue-l-main-navigation__list--2-cols"
+                        role="menu" aria-label="Servicios">
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--service"
+                            role="presentation"> <a href="https://www.elmundo.es/newsletters.html"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="newsletter"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Newsletters </a>
+                        </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--service"
+                            role="presentation"> <a href="https://www.elmundo.es/traductor/" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="traductor" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Traductor </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--service"
+                            role="presentation"> <a href="https://www.elmundo.es/television/programacion-tv/"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="guia-tv"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Guía TV </a>
+                        </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--service"
+                            role="presentation"> <a href="https://www.elmundo.es/yodona/horoscopo.html"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="horoscopo"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Horóscopo </a>
+                        </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--service"
+                            role="presentation"> <a href="https://www.elmundo.es/tiempo/" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="tiempo" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> El tiempo </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--service"
+                            role="presentation"> <a href="https://www.elmundo.es/economia/conversor-cambio-moneda.html"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="conversor-de-divisas"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Conversor de
+                                divisas </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--service"
+                            role="presentation"> <a href="https://descuentos.elmundo.es/" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="descuentos" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Descuentos </a> </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--service"
+                            role="presentation"> <a href="https://www.elmundo.es/elmundo/hemeroteca/"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="hemeroteca"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Hemeroteca </a>
+                        </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--service"
+                            role="presentation"> <a href="https://www.elmundo.es/metropoli/restaurantes.html"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="restaurantes"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Restaurantes </a>
+                        </li>
+                        <li class="ue-c-main-navigation__list-item ue-c-main-navigation__list-item--service"
+                            role="presentation"> <a href="http://quiosco.orbyt.es/" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="orbyt" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Orbyt </a> </li>
+                    </ul>
+                </div>
+                <div class="ue-c-main-navigation ue-c-main-navigation--boxed">
+                    <div class="ue-c-main-navigation__title">Más secciones</div>
+                    <ul class="ue-c-main-navigation__list ue-c-main-navigation__list--first-level ue-l-main-navigation__list--2-cols"
+                        role="menu" aria-label="Más secciones">
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/premium.html" data-ue-cmp="MENUMIGA02"
+                                data-ue-skw="premium" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Premium </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/podcasts.html" data-ue-cmp="MENUMIGA02"
+                                data-ue-skw="podcasts" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Podcasts </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/tecnologia.html" data-ue-cmp="MENUMIGA02"
+                                data-ue-skw="tecnologia" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Tecnología </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/elecciones.html" data-ue-cmp="MENUMIGA02"
+                                data-ue-skw="elecciones" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Elecciones </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/extras.html" data-ue-cmp="MENUMIGA02" data-ue-skw="extras"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Extras </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/ultimas-noticias.html" data-ue-cmp="MENUMIGA02"
+                                data-ue-skw="lo-mas" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Últimas noticias </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/ofertas-regalos.html" data-ue-cmp="MENUMIGA02"
+                                data-ue-skw="ofertas-regalos" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Bazar, ofertas y regalos </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/como.html" data-ue-cmp="MENUMIGA02" data-ue-skw="como"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Cómo </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/loterias/resultados.html" data-ue-cmp="MENUMIGA02"
+                                data-ue-skw="loterias" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Loterías </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/t/su/sucesos.html" data-ue-cmp="MENUMIGA02"
+                                data-ue-skw="sucesos" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Sucesos </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://saposyprincesas.elmundo.es/" data-ue-cmp="MENUMIGA02" data-ue-skw="ninos"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Niños </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://recetasdecocina.elmundo.es/" data-ue-cmp="MENUMIGA02"
+                                data-ue-skw="recetas-de-cocina" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Recetas de cocina </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://eltiempodelasmujeres.elmundo.es/" data-ue-cmp="MENUMIGA02"
+                                data-ue-skw="el-tiempo-de-las-mujeres"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> El tiempo de las
+                                mujeres </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://videos.elmundo.es/" data-ue-cmp="MENUMIGA02" data-ue-skw="videos"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Vídeos </a> </li>
+                    </ul>
+                </div>
+                <div class="ue-c-main-navigation ue-c-main-navigation--boxed">
+                    <div class="ue-c-main-navigation__title">Rankings</div>
+                    <ul class="ue-c-main-navigation__list ue-c-main-navigation__list--first-level ue-l-main-navigation__list--2-cols"
+                        role="menu" aria-label="Rankings">
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/mejores-colegios.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="mejores-colegios" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Mejores colegios </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/especiales/ranking-universidades/index.html"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="ranking-universidades"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Mejores
+                                universidades </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/especiales/mejores-masters/index.html"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="mejores-masters"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> MASTERS </a>
+                        </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/t/fo/formacion-online.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="formacion-online" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Formación online </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/especiales/los-mas-ricos/index.html"
+                                data-ue-cmp="MENUHAM01" data-ue-skw="ricos"
+                                class="ue-c-main-navigation__link js-navigation-link" role="menuitem"> Los más ricos
+                            </a> </li>
+                        <li class="ue-c-main-navigation__list-item " role="presentation"> <a
+                                href="https://www.elmundo.es/especiales/cotos-caza/index.html" data-ue-cmp="MENUHAM01"
+                                data-ue-skw="cotos-caza" class="ue-c-main-navigation__link js-navigation-link"
+                                role="menuitem"> Los dueños de los cotos de caza </a> </li>
+                    </ul>
+                </div>
+                <footer class="ue-c-main-navigation__footer">
+                    <div class="ue-c-main-navigation__footer-wrapper">
+                        <a href="https://www.elmundo.es/em/codigo-etico.html" class="ue-c-main-navigation__trust"
+                            role="menuitem">
+                            <span>Conforme a los criterios de:</span>
+                            <svg role="img" class="" aria-label="The Trust Project" xmlns="http://www.w3.org/2000/svg"
+                                width="150" height="26" viewBox="0 0 150 26">
+                                <defs>
+                                    <path id="a"
+                                        d="M.309.232a.176.176 0 0 0-.18.18v4.453c0 .103.077.18.18.18h4.528a.23.23 0 0 1 .232.232v8.65c0 .103.077.18.18.18h5.068c.103 0 .18-.077.18-.18V5.25c0-.102.078-.18.18-.18h4.555c.102 0 .18-.077.18-.18V.411a.176.176 0 0 0-.18-.18H.309z">
+                                    </path>
+                                </defs>
+                                <g fill="none" fill-rule="evenodd">
+                                    <path fill="#FFF"
+                                        d="M24.237 21.624a2.581 2.581 0 0 1-2.573 2.574H4.168a2.581 2.581 0 0 1-2.573-2.574V4.119a2.581 2.581 0 0 1 2.573-2.574h17.496a2.581 2.581 0 0 1 2.573 2.574v17.505z">
+                                    </path>
+                                    <path fill="#22201D"
+                                        d="M24.237 21.675a2.581 2.581 0 0 1-2.573 2.575H4.168a2.581 2.581 0 0 1-2.573-2.575V4.17a2.581 2.581 0 0 1 2.573-2.574h17.496a2.581 2.581 0 0 1 2.573 2.574v17.505zM21.664.052H4.168A4.13 4.13 0 0 0 .051 4.17v17.505a4.13 4.13 0 0 0 4.117 4.12h17.496a4.13 4.13 0 0 0 4.116-4.12V4.17A4.13 4.13 0 0 0 21.664.052z">
+                                    </path>
+                                    <path fill="#22201D"
+                                        d="M15.463 19.822h-5.069a.176.176 0 0 1-.18-.18v-8.65a.23.23 0 0 0-.231-.232H5.455a.176.176 0 0 1-.18-.18V6.127c0-.103.077-.18.18-.18h14.922c.103 0 .18.077.18.18v4.479c0 .103-.077.18-.18.18h-4.554a.176.176 0 0 0-.18.18v8.676c0 .103-.077.18-.18.18">
+                                    </path>
+                                    <g fill="#22201D" fill-rule="nonzero">
+                                        <path
+                                            d="M41.779 9.302h-3.266v8.258h-2.288V9.302H33.01V7.545h8.769zm7.354 1.373c.463.457.694 1.203.694 2.214v4.67h-2.211v-4.67c0-.457-.103-.77-.309-.938-.205-.193-.514-.265-.925-.265-.592 0-1.029.192-1.286.602v5.296h-2.211V7.545h2.211v3.37c.257-.313.566-.53.926-.698.36-.168.745-.24 1.157-.24.848 0 1.491.24 1.954.698zm8.974 3.851h-5.04c.078.458.283.843.618 1.108.334.265.745.41 1.26.41.385 0 .745-.073 1.054-.193.334-.145.591-.338.823-.602l1.054 1.155c-.283.385-.694.698-1.234.94-.54.264-1.157.384-1.877.384-.823 0-1.518-.168-2.109-.481a3.497 3.497 0 0 1-1.389-1.3 3.692 3.692 0 0 1-.488-1.83v-.265c0-.746.154-1.396.437-1.998a3.412 3.412 0 0 1 1.286-1.372c.565-.337 1.234-.481 2.005-.481.746 0 1.389.144 1.929.457.54.289.926.722 1.209 1.276.282.554.411 1.204.411 1.926v.866h.051zm-2.16-1.564c0-.41-.128-.723-.36-.963-.231-.241-.565-.361-1.028-.361-.412 0-.746.12-.977.385-.232.265-.386.626-.463 1.083h2.828v-.144zm14.4-3.66h-3.265v8.258h-2.289V9.302H61.58V7.545h8.768zm5.22.698c.129.025.232.025.309.049l-.026 1.998c-.283-.048-.54-.048-.797-.048-.797 0-1.311.24-1.543.746v4.815H71.3v-7.44h2.083l.077.892c.206-.337.437-.602.746-.77a2.094 2.094 0 0 1 1.028-.266c.077 0 .206.025.334.025zm8.383.12v7.44h-2.083l-.051-.77a2.5 2.5 0 0 1-.926.673c-.36.169-.771.241-1.234.241-.823 0-1.466-.216-1.954-.674-.463-.457-.695-1.155-.695-2.094V10.12h2.212v4.839c0 .36.103.626.283.818.205.169.463.265.797.265.668 0 1.157-.217 1.414-.674V10.12h2.237zm1.312 2.192c0-.434.128-.819.385-1.156.258-.361.618-.626 1.106-.843.489-.216 1.054-.312 1.697-.312.669 0 1.286.096 1.775.312.514.193.9.482 1.182.843.283.361.412.77.412 1.252h-2.212a.93.93 0 0 0-.282-.698c-.18-.169-.489-.241-.875-.241-.334 0-.591.072-.771.217a.636.636 0 0 0-.283.553c0 .217.103.386.334.53.206.144.592.24 1.106.337.617.12 1.157.265 1.594.433a2.64 2.64 0 0 1 1.029.723c.257.313.386.698.386 1.18 0 .433-.129.818-.412 1.179a2.792 2.792 0 0 1-1.183.818c-.514.193-1.105.29-1.774.29-.72 0-1.337-.121-1.851-.362-.515-.24-.926-.554-1.183-.939a2.007 2.007 0 0 1-.412-1.203h2.083c.026.36.154.626.412.794.257.169.591.265 1.002.265.386 0 .669-.072.875-.193.205-.144.308-.313.308-.553a.567.567 0 0 0-.128-.362 1.619 1.619 0 0 0-.489-.288c-.231-.097-.566-.169-.977-.265-1.929-.41-2.854-1.18-2.854-2.311zm12.137 3.635v1.565a4.4 4.4 0 0 1-1.312.192c-1.568 0-2.34-.746-2.34-2.239v-3.852h-1.131v-1.516h1.131V8.243h2.212v1.854h1.337v1.516h-1.337v3.588c0 .288.051.505.18.601.128.097.334.169.617.169.257.024.463.024.643-.024zM108.867 7.978c.618.29 1.08.674 1.415 1.18.334.505.488 1.083.488 1.733 0 .65-.154 1.204-.488 1.685-.335.482-.797.843-1.415 1.108-.617.265-1.337.385-2.16.385h-1.902v3.49h-2.315V7.546h4.217c.823 0 1.543.144 2.16.433zm-.848 3.973a1.35 1.35 0 0 0 .437-1.036c0-.289-.051-.553-.18-.794a1.398 1.398 0 0 0-.566-.578c-.257-.144-.591-.217-.977-.217h-1.903v3.034h1.903c.566-.024 1.003-.169 1.286-.41zM116.016 10c.129.025.231.025.309.049l-.026 1.998c-.283-.048-.54-.048-.797-.048-.797 0-1.312.24-1.543.746v4.815h-2.212v-7.44h2.083l.077.892c.206-.337.438-.602.746-.77a2.094 2.094 0 0 1 1.029-.266c.077 0 .205 0 .334.025zm1.26 1.806c.309-.578.72-1.035 1.286-1.348.565-.337 1.234-.482 2.031-.482.797 0 1.466.169 2.057.482.566.337 1.003.77 1.312 1.348.308.578.437 1.228.437 1.95v.145c0 .722-.154 1.372-.437 1.95a3.35 3.35 0 0 1-1.286 1.348c-.566.337-1.234.481-2.031.481-.798 0-1.466-.168-2.058-.481-.565-.337-1.002-.77-1.311-1.348-.309-.578-.437-1.228-.437-1.95v-.145c0-.722.154-1.372.437-1.95zm2.16 3.635c.257.385.643.578 1.209.578.54 0 .925-.193 1.182-.578.258-.385.386-.89.386-1.54v-.145c0-.626-.128-1.155-.386-1.54-.257-.386-.642-.578-1.208-.578-.54 0-.926.192-1.183.577-.257.386-.386.915-.386 1.541v.145c0 .65.129 1.18.386 1.54zm8.46 1.974c0 .843-.257 1.517-.746 1.974-.488.458-1.183.699-2.057.699-.386 0-.771-.049-1.08-.12V18.33c.232.048.463.072.669.072.668 0 .977-.313.977-.963v-7.318h2.237v7.294zm-.283-9.894c.232.192.334.457.334.77s-.102.578-.334.77c-.231.193-.514.29-.9.29-.36 0-.668-.097-.9-.29-.231-.192-.334-.457-.334-.77s.103-.578.334-.77c.232-.193.54-.289.9-.289.386 0 .694.096.9.289zm8.743 6.981h-5.04c.077.458.283.843.617 1.108.334.265.746.409 1.26.409.386 0 .746-.072 1.054-.193.335-.144.592-.337.823-.601l1.055 1.155c-.283.385-.695.698-1.235.939-.54.265-1.157.385-1.877.385-.823 0-1.517-.168-2.108-.481a3.497 3.497 0 0 1-1.389-1.3 3.692 3.692 0 0 1-.489-1.83v-.265c0-.746.155-1.396.438-1.998a3.412 3.412 0 0 1 1.285-1.372c.566-.337 1.235-.482 2.006-.482.746 0 1.389.145 1.929.458.54.289.925.722 1.208 1.276.283.553.412 1.203.412 1.926v.866h.051zm-2.186-1.54c0-.41-.128-.723-.36-.963-.231-.241-.565-.361-1.028-.361-.412 0-.746.12-.977.385-.232.265-.386.626-.463 1.083h2.828v-.144zm10.106 1.998c0 .53-.154 1.01-.437 1.42-.283.41-.694.746-1.183.987a3.839 3.839 0 0 1-1.671.361c-.798 0-1.466-.168-2.032-.481-.566-.337-.977-.77-1.234-1.348-.283-.578-.412-1.204-.412-1.95v-.169c0-.722.129-1.372.412-1.95a3.228 3.228 0 0 1 1.234-1.348c.54-.337 1.234-.481 2.006-.481.643 0 1.234.12 1.723.36.514.241.9.578 1.183 1.012.282.433.411.963.411 1.565h-2.083a1.39 1.39 0 0 0-.334-.915c-.232-.241-.54-.361-.952-.361-.54 0-.9.192-1.105.577-.206.386-.309.891-.309 1.541v.169c0 .65.103 1.18.309 1.54.205.362.565.554 1.131.554.386 0 .694-.096.926-.289a.988.988 0 0 0 .36-.794h2.057zm5.606.987v1.565a4.4 4.4 0 0 1-1.312.192c-1.568 0-2.34-.746-2.34-2.239v-3.852h-1.13v-1.516h1.131V8.243h2.212v1.854h1.337v1.516h-1.337v3.588c0 .288.051.505.18.601.128.097.334.169.617.169.257.024.463 0 .643-.024z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        <address class="ue-c-main-navigation__address" aria-label="Dirección y datos de contacto">
+                            <span>© Unidad Editorial Información General, S.L.U. Avda San Luis 25 - 28033 Madrid</span>
+                        </address>
+                        <nav class="ue-c-main-navigation__corporative" role="navigation" aria-label="Menú corporativo">
+                            <ul class="ue-c-main-navigation__list-corporative">
+                                <li class="ue-c-main-navigation__list-corporative-item"><a href="#" target="_blank"
+                                        onclick="ueCookiesPolicy.preferences.show(); return false;">Política de
+                                        cookies</a></li>
+                                <li class="ue-c-main-navigation__list-corporative-item"><a
+                                        href="https://www.elmundo.es/privacidad/">Política de privacidad</a></li>
+                                <li class="ue-c-main-navigation__list-corporative-item"><a
+                                        href="https://www.uesyndication.com/">Venta de contenidos</a></li>
+                                <li class="ue-c-main-navigation__list-corporative-item"><a
+                                        href="http://www.unidadeditorial.com/publicidad">Publicidad</a></li>
+                                <li class="ue-c-main-navigation__list-corporative-item"><a
+                                        href="https://www.elmundo.es/privacidad/avisolegal.html">Términos y condiciones
+                                        de uso</a></li>
+                                <li class="ue-c-main-navigation__list-corporative-item"><a
+                                        href="http://www.ojd.es/">Certificado por OJD</a></li>
+                                <li class="ue-c-main-navigation__list-corporative-item"><a
+                                        href="https://www.elmundo.es/registro/contacto.html">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </footer>
+            </div>
+            <div class="ue-l-side-panel__mask js-panel-mask hidden-content" id="mask-ID-REF2"></div>
+        </nav>
+    </div>
+    <script>var navigationSection = "portada"</script>
+</header>
